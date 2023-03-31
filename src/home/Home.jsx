@@ -1,27 +1,8 @@
-import { Box, Step, StepLabel, Stepper, Typography } from '@mui/material';
-import PersonIcon from '@mui/icons-material/Person';
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-import styled from '@emotion/styled';
-import GridViewIcon from '@mui/icons-material/GridView';
-import NoteAddIcon from '@mui/icons-material/NoteAdd';
-import MonetizationOnIcon from '@mui/icons-material/MonetizationOn';
-import React, { useState } from 'react'
+
+import React from 'react'
 import Block1 from  '../contents/Block1'
-import Block2 from '../contents/Block2';
 
 
-const steps = [
-  'Upload EDFs',
-  'Map channels',
-  'Save & Preview',
-];
-const Box1 = styled(Box)({
-  width:'100%',
-  display:'flex'
-})
-const Box2 = styled(Box)({
-
-})
 const Home = () => {
   return (
     <div>

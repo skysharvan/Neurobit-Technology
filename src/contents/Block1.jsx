@@ -9,7 +9,7 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import Stepper from '@mui/material/Stepper';
 import InsertDriveFileIcon from '@mui/icons-material/InsertDriveFile';
 import TextField from '@mui/material/TextField';
-import { Button, Divider, Step, StepLabel,   Typography } from '@mui/material';
+import { Button, Step, StepLabel,   Typography } from '@mui/material';
 import Block2 from './Block2';
 // import  {styled } from '@mui/styles';
 // import { style } from '@mui/system';
@@ -50,7 +50,7 @@ const steps = [
 
 const Block1 = () => {
     const [value , setValue] = useState('upload');
-    const [back , setBack] = useState('initial');
+    // const [back , setBack] = useState('initial');
   return (
     <>
        <Box1>

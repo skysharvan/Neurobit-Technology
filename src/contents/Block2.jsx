@@ -1,8 +1,6 @@
 import { Autocomplete, Box, Button, Checkbox, TextField, Typography } from '@mui/material'
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
-import AddIcon from '@mui/icons-material/Add';
 import React from 'react';
-import JsonFile from './JsonFile';
+
 
 const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
 
